@@ -1,13 +1,5 @@
 var vowel = ["a","e","i","o","u"];
 
-function checkVowel (string) {
-  for (var i = 0; i < vowel.length; i++) {
-    if (string[0] === vowel[i]) {
-      return string + "ay";
-    }
-  };
-};
-
 function checkConsonant (string) {
   for (var j = 0; j < string.length; j++) {
     for (var i = 0; i < vowel.length; i++) {
@@ -18,7 +10,24 @@ function checkConsonant (string) {
       }
       }
     }
-  }
+  };
+
+function checkQu (string) {
+  if (string.substring(0, 2) === "qu") {
+    return string.slice(2) + "qu" + "ay";
+ }
+}
+
+function checkVowel (string) {
+  for (var i = 0; i < vowel.length; i++) {
+    if (string[0] === vowel[i]) {
+      return string + "ay";
+    }
+  };
+};
+
+
+
  // !== vowel
 
  // else {

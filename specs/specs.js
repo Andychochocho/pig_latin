@@ -16,11 +16,11 @@ describe('checkQu', function(){
   });
 });
 
-// describe('checkQuAfter', function (){
-//   it("is true that string starts with consonant, with qu following", function(){
-//     expect(checkQuAfter("square")).to.equal("aresquay");
-//   });
-// });
+describe('checkQuAfter', function (){
+  it("is true that string starts with consonant, with qu following", function(){
+    expect(checkQuAfter("square")).to.equal("aresquay");
+  });
+});
 
 // it("is false that the string starts with a vowel", function(){
 //   expect(checkVowel("brownies")).to.equal(false);

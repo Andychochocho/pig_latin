@@ -1,10 +1,14 @@
 var vowel = ["a","e","i","o","u"];
+var qu = ["q", "u"];
 
 function checkConsonant (string) {
   for (var j = 0; j < string.length; j++) {
     for (var i = 0; i < vowel.length; i++) {
       if (string.charAt([j]) !== vowel[i]) {
         //once you reach the first vowel in the string, the else statement begins
+      } else if {
+
+
       } else {
         return string.slice([j]) + string.slice(0,[(j)]) + "ay";
       }
@@ -17,6 +21,13 @@ function checkQu (string) {
     return string.slice(2) + "qu" + "ay";
  }
 }
+function checkQuAfter (string) {
+  for (var j = 0; j < string.length; j++) {
+    for (var i = 0; i < qu.length; i++) {
+      if (string.)
+    }
+};
+};
 
 function checkVowel (string) {
   for (var i = 0; i < vowel.length; i++) {
